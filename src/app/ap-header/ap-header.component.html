@@ -1,0 +1,15 @@
+<div>
+  <div class="header container">
+    <div>
+      <a class="header-logo-item">
+      <img src="assets/img/APLogo-02.png">
+    </a>
+    </div>
+    <div class="right-items">
+      <a class="header-nav-item" *ngFor="let item of menuItems">
+        {{ item.toUpperCase() }}
+      </a>
+      <button class="logOutButton">{{ logOutButtonTxt.toUpperCase() }}</button>
+    </div>
+  </div>
+</div>

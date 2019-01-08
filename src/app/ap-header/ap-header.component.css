@@ -1,0 +1,57 @@
+.container {
+    background-color: #99BE3D;
+    height: 90px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-item {
+    padding-left: 45px;
+}
+.right-items {
+  justify-content: flex-end;
+}
+
+.header-nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-nav-item:hover {
+  color: #848484;
+}
+
+.logOutButton {
+    outline: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 12px;
+    color: #9fa8b0;
+    font-weight: bold;
+    text-shadow: 1px 1px #1f272b;
+    border: 1px solid #1c252b;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #232B30; /* old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#3D4850), color-stop(4%,#313d45), color-stop(100%,#232B30)); /* webkit */
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2); /* Safari, Chrome */
+}
+.logOutButton:hover {
+    color: #fff;
+    background: #4C5A64; /* old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#4C5A64), color-stop(4%,#404F5A), color-stop(100%,#2E3940)); /* webkit */
+}
+.logOutButton:active {
+    background-position: 0 top;
+    position: relative;
+    top: 1px;
+    color: #fff;
+    padding: 6px 12px 4px;
+    background: #20282D; /* old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#20282D), color-stop(51%,#252E34), color-stop(100%,#222A30)); /* webkit */
+    -webkit-box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* Safari, Chrome */
+}
+
+
