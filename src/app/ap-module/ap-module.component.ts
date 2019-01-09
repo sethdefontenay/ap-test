@@ -14,6 +14,12 @@ export class ApModuleComponent implements OnInit {
   currentModule = {}
   currentTaskId = 4
   currentTask = {}
+  MODULE = 'Module'
+  TASK = 'Task'
+  QUESTION = 'Question'
+  ANSWER = 'Answer'
+  ARTICLES_DESC = 'Click and read the following articles and answer the question below'
+
 
   constructor() {
     this.service.getData().then(result => {
