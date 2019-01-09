@@ -5,6 +5,15 @@ export class ModuleService {
 
     getData(): Promise<any> {
         return Promise.resolve({
+            "testModules": { 1: {
+              "title": "Get to know your dairy farm business",
+              "tasks": {4: {
+                "title": "Life on the Farm",
+                "description": "All you need to know about farming",
+                "contentLinks": [{"title": "Being a farmer", "url": "http://www.google.com"}, {"title": "Life on the farm", "url": "http://www.google.com"}],
+                "question": "In terms of dairy farming in New Zealand, when does spring start?"
+              }}
+            }},
             "moduleID": "0d59d611-4904-4457-1c78-08d4a007e498",
             "title": "Getting Started and Introducing Your Own Business",
             "description": "<h1>Learning Outcomes</h1><p>When you have completed this module you should:</p><ol><li>Know the financial objectives of business</li><li>Understand the accounting basis of a business</li><li>Started to explore basic business tax</li><li>Learnt something about a real business and its industry</li></ol><p><img src=\"https://apodportalstorage.blob.core.windows.net/apod-portal/Real%20Business%20Experiience.jpg\"></p>",

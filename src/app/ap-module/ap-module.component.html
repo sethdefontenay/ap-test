@@ -1,0 +1,21 @@
+<h3>
+  Module {{ currentModuleId }}: {{ currentModule.title}}
+</h3>
+<h4>
+  <strong> Task {{ currentTaskId }}: </strong>{{ currentTask.title }}
+</h4>
+<p> <strong>{{ currentTask.description }} </strong></p>
+<p>Click and read the following articles and answer the question below</p>
+<div *ngFor="let item of currentTask.contentLinks">
+  <a href="item.url">
+  {{ item.title }}
+  </a>
+</div>
+<p><strong>Question:</strong></p>
+<p>{{ currentTask.question }}</p>
+
+<p><strong>Answer: </strong></p>
+<input type="text">
+<input type="submit">
+
+
