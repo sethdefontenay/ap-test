@@ -8,13 +8,15 @@ import { ModuleService } from './module.service';
 import { ApHeaderComponent } from './ap-header/ap-header.component';
 import { ApSidebarComponent } from './ap-sidebar/ap-sidebar.component';
 import { ApModuleComponent } from './ap-module/ap-module.component';
+import { ApModuleListComponent } from './ap-module-list/ap-module-list.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         ApHeaderComponent,
         ApSidebarComponent,
-        ApModuleComponent
+        ApModuleComponent,
+        ApModuleListComponent
     ],
     imports: [
         BrowserModule,

@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 20px;
+}
+
+@flex-height: 760px;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    height: @flex-height;
+}
+
+.flex-item:nth-child(1) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  background-color: #F2F2F2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+  margin-right: 0;
+}
+
+.flex-item:nth-child(2) {
+  order: 0;
+  flex: 3 1 auto;
+  align-self: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  margin: 10px;
+  box-sizing: border-box;
+  margin-left: 0;
+}

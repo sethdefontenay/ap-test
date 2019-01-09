@@ -7,12 +7,12 @@ export class ModuleService {
         return Promise.resolve({
             "testModules": { 1: {
               "title": "Get to know your dairy farm business",
-              "tasks": {4: {
+              "tasks": {1: {}, 2: {}, 3: {}, 4: {
                 "title": "Life on the Farm",
                 "description": "All you need to know about farming",
                 "contentLinks": [{"title": "Being a farmer", "url": "http://www.google.com"}, {"title": "Life on the farm", "url": "http://www.google.com"}],
                 "question": "In terms of dairy farming in New Zealand, when does spring start?"
-              }}
+              }, 5: {}, 6: {}}
             }},
             "moduleID": "0d59d611-4904-4457-1c78-08d4a007e498",
             "title": "Getting Started and Introducing Your Own Business",
